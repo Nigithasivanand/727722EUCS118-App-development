@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: pink;
+  background-image: url("C:\Users\USER\Downloads\hand-drawn-flat-design-abstract-doodle-background\6840209.jpg"); 
+  background-size: cover; /* Adjust this as needed */
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+  background-position: center; /* Center the image */
+}
+
+.login-container, .register-container {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.985);
+  width: 300px;
+}
+
+input {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: calc(100% - 20px);
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: palevioletred;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a700b3;
+}
+
+span {
+  color: #ff00ff;
+  cursor: pointer;
+}
+
+span:hover {
+  text-decoration: underline;
+}
